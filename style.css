@@ -4,3 +4,40 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+#To {
+    font-size: 70px;
+    
+}
+#toor{
+    font-size: 50px;
+    
+}
+#color{
+    color: orange;
+}
+.tol{
+    color: green;
+}
+.parant{
+    display: flex;
+    margin: 100px;
+}
+#normal{
+    
+}
+.image{
+    margin-left: 300px;
+}
+#lol{
+    color: red;
+}
+.colo{
+    color: blue;
+}
+#link{
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    border: 1px solid orange;
+    font-size: 20px;
+    color: white;
+}
