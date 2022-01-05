@@ -65,6 +65,7 @@ margin: 0;
 .head{
     margin-left: 30px;
     color: red;
+    font-size: 60px;
 }
 .mit{
     color: royalblue;
@@ -72,24 +73,42 @@ margin: 0;
 .co{
     color: seagreen;
 }
-.tree{
-    display: flex;
-    padding: 90px;
-}
+
+
 #first{
-    border: 1px solid;
-    padding: 40px;
-    margin-left: 0px;
-    margin-right: 30px;
-}
-#seceand{
-    border: 1px solid;
-    padding: 50px;
-    margin-left: 0px;
-}
-#third{
-    border: 1px solid; 
-    margin-left: 50px;
-    padding: 30px;
+    background-image:url(image/Untitled.j[g.png);
+    box-shadow: 10px 15px 50px blue;
+    border: 5px solid;
+    margin-left: 10px;
+    padding: 10px;
+    width: 25%;
+    margin-bottom: 5%;
+    margin-right: 50px;
+
 
 }
+#seceand{
+    border: 5px solid;
+    padding: 10px;
+    margin-left: 100px;
+    width: 25%;
+    margin-bottom: 5%;
+    
+}
+#third{
+    
+    
+    border: 5px  solid blue; 
+    border-image: linear-gradient(blue,pink ,red);
+    border-image-slice:1 ;
+    margin-left: 150px;
+    padding: 10px;
+    margin-bottom: 5%;
+    width: 25%;
+    margin-right: 50px;
+
+
+}
+.tree{ display: flex;
+     padding: 90px;
+     }
