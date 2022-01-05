@@ -79,6 +79,9 @@ margin: 0;
     background-image:url(image/Untitled.j[g.png);
     box-shadow: 10px 15px 50px blue;
     border: 5px solid;
+    border-image: linear-gradient(rgb(255, 0, 0),rgb(29, 14, 28) ,rgb(0, 204, 255));
+    border-image-slice:1 ;
+    box-shadow: 5px 2px 50px rgb(52, 226, 160);
     margin-left: 10px;
     padding: 10px;
     width: 25%;
@@ -88,7 +91,11 @@ margin: 0;
 
 }
 #seceand{
+    background-image:url(image/Untitled.j[g.png);
     border: 5px solid;
+    border-image: linear-gradient(rgb(166, 255, 0),rgb(250, 192, 255) ,rgb(217, 255, 0));
+    border-image-slice:1 ;
+    box-shadow: 5px 2px 50px rgb(180, 173, 69);
     padding: 10px;
     margin-left: 100px;
     width: 25%;
@@ -97,18 +104,21 @@ margin: 0;
 }
 #third{
     
-    
+    background-image:url(image/Untitled.j[g.png);
     border: 5px  solid blue; 
     border-image: linear-gradient(blue,pink ,red);
     border-image-slice:1 ;
+    box-shadow: 5px 2px 50px rgba(233, 104, 104, 0.945);
     margin-left: 150px;
     padding: 10px;
     margin-bottom: 5%;
     width: 25%;
     margin-right: 50px;
-
-
 }
+
 .tree{ display: flex;
      padding: 90px;
+     background-image: url(image/best.jpg);
+     
+     background-repeat: no-repeat;
      }
