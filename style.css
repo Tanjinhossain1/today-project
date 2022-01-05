@@ -3,6 +3,7 @@ body{
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
+margin: 0;
 }
 #To {
     font-size: 70px;
@@ -20,11 +21,9 @@ font-family: 'Poppins', sans-serif;
 }
 .parant{
     display: flex;
-    margin: 100px;
+    margin-left: 100px;
 }
-#normal{
-    
-}
+
 .image{
     margin-left: 300px;
 }
@@ -34,10 +33,42 @@ font-family: 'Poppins', sans-serif;
 .colo{
     color: blue;
 }
-#link{
+.link{
     text-decoration: none;
     background-image: linear-gradient(red,orange);
     border: 1px solid orange;
     font-size: 20px;
     color: white;
+}
+.iu{
+    margin-bottom: 200px;
+    background-image: url(image/tuku.png);
+    background-repeat: no-repeat;
+}
+#img{
+    margin-left: 100px;
+}
+.long{
+    display: flex;
+}
+.right{
+    margin-left: 400px;
+    margin-right: 100px;
+    padding: 150px;
+    box-shadow: 10px 15px 20px rgb(102, 80, 87) ;
+    border-radius: 30px;
+
+}
+.tik{
+    color: red;
+}
+.head{
+    margin-left: 100px;
+    color: red;
+}
+.mit{
+    color: royalblue;
+}
+.co{
+    color: seagreen;
 }
