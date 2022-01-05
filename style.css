@@ -63,7 +63,7 @@ margin: 0;
     color: red;
 }
 .head{
-    margin-left: 100px;
+    margin-left: 30px;
     color: red;
 }
 .mit{
@@ -71,4 +71,25 @@ margin: 0;
 }
 .co{
     color: seagreen;
+}
+.tree{
+    display: flex;
+    padding: 90px;
+}
+#first{
+    border: 1px solid;
+    padding: 40px;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+#seceand{
+    border: 1px solid;
+    padding: 50px;
+    margin-left: 0px;
+}
+#third{
+    border: 1px solid; 
+    margin-left: 50px;
+    padding: 30px;
+
 }
